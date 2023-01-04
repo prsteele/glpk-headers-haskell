@@ -31,7 +31,6 @@ test-suite glpk-headers-haskell-test-suite
   main-is:           Driver.hs
   hs-source-dirs:    test
   ghc-options:       -threaded -with-rtsopts=-N
-  extra-libraries:   glpk
   other-modules:     Diet
   build-depends:     base
                    , glpk-headers-haskell
